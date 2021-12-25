@@ -1,0 +1,177 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #828282;
+}
+.main {
+
+}
+hr{
+  padding: 0;
+  margin: 0;
+}
+.header_aling{
+  width: 940px;
+  margin: 0 auto;
+}
+.nav {
+  height: 90px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+.header_tilte {
+  margin-top: 40px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.title_name{
+  width: 123px;
+  font-family: Gilroy-Bold;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.title_sub{
+  width: 155px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.title_lang{
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.img {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: block;
+  height: 390px;
+  width: 940px;
+}
+img{
+  width: 940px;
+  padding: 0;
+  margin: 0;
+}
+.content_about{
+  background: #F6F6F6;
+  display: block;
+  height: 500px;
+}
+.content_align{
+  width: 940px;
+  margin: 0 auto; 
+}
+.content_title{
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding-top: 120px;
+  color:black;  
+}
+.content_sub{
+  margin: 0 auto;
+  width: 480px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 100px;
+  color:black;
+  text-align: center;  
+}
+.content_skill{
+  height: 610px;  
+}
+.content_skill .content_sub {
+  margin: 0 auto;
+  width: 480px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  color:black;
+  text-align: center;
+
+}
+.skills_ico{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 110px;
+}
+.ico_wrap{
+  width: 166px;
+}
+.ico_png{
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  background-color: red;
+}
+.ico_title{
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 40px;
+}
+.ico_stars_wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 166px;
+}
+.starT{
+  border-radius: 1px;
+  width: 26px;
+  height: 26px;
+}
+.starF{
+  border-radius: 1px;
+  width: 26px;
+  height: 26px;
+}
+.content_portfolio{
+  background: #F6F6F6;
+}
+.content_img{
+  width: 940px;
+  height: 510px;
+}
+.content_portfolio .content_sub{
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+
+}
